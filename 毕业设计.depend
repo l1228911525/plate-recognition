@@ -1,0 +1,88 @@
+# depslib dependency file v1.0
+1521275705 source:d:\codeblocks\project\毕业设计\main.cpp
+	"plate.hpp"
+	"platelocate.hpp"
+	"svm.hpp"
+	"anncharrecognise.hpp"
+	"chars_segment.h"
+	<stdio.h>
+
+1520351456 d:\codeblocks\project\毕业设计\plate.hpp
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/opencv.hpp>
+
+1520187868 source:d:\codeblocks\project\毕业设计\platejudge.cpp
+
+1520409653 d:\codeblocks\project\毕业设计\platelocate.hpp
+	"plate.hpp"
+
+1521275134 source:d:\codeblocks\project\毕业设计\platelocate.cpp
+	"platelocate.hpp"
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/opencv.hpp>
+	<vector>
+	<opencv2/ml/ml.hpp>
+
+1520276073 d:\codeblocks\project\毕业设计\svm.hpp
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/opencv.hpp>
+	<vector>
+	<opencv2/ml/ml.hpp>
+	"plate.hpp"
+
+1520599327 source:d:\codeblocks\project\毕业设计\svm.cpp
+	"svm.hpp"
+	"svmfeature.hpp"
+
+1521012274 d:\codeblocks\project\毕业设计\svmfeature.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/ml/ml.hpp"
+	<stdio.h>
+	<iostream>
+
+1520479309 source:d:\codeblocks\project\毕业设计\charsegment.cpp
+	"charsegment.hpp"
+
+1520479301 d:\codeblocks\project\毕业设计\charsegment.hpp
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/opencv.hpp>
+	"plate.hpp"
+
+1520592601 source:d:\codeblocks\project\毕业设计\anncharrecognise.cpp
+	"anncharrecognise.hpp"
+
+1520697159 d:\codeblocks\project\毕业设计\anncharrecognise.hpp
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/opencv.hpp>
+	<vector>
+	<opencv2/ml/ml.hpp>
+	<string>
+	<map>
+	"plate.hpp"
+
+1521275134 source:d:\codeblocks\project\毕业设计\chars_segment.cpp
+	"chars_segment.h"
+
+1520697159 d:\codeblocks\project\毕业设计\chars_segment.h
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/opencv.hpp>
+	<vector>
+	<opencv2/ml/ml.hpp>
+	<string>
+	<map>
+	"plate.hpp"
+
